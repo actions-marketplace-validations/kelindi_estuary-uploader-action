@@ -23,5 +23,5 @@ runs:
   env:
     ACCESS_TOKEN: ${{ inputs.access_token }}
     UPLOAD_PATH: ${{ inputs.path_to_add }}
-    NAME: ${{ github.repository }}
+    NAME: ${{ github.event.repository.name }}
   
