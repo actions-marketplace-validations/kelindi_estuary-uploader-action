@@ -3,7 +3,7 @@ description: 'Upload your website or repository to Estuary.tech'
 author: 'Kelindi
 branding:
   icon: 'box'
-  color: 'gray-dark'
+  color: 'white'
 inputs:
   access_token:
     description: 'Access Token for API Endpoint'
