@@ -24,4 +24,4 @@ runs:
     ACCESS_TOKEN: ${{ inputs.access_token }}
     UPLOAD_PATH: ${{ inputs.path_to_add }}
     NAME: ${{ inputs.pin_name }}
-    TIME: ${{ github.event.repository.updated_at}}
+    TIME: ${{ env.github.event.repository.updated_at}}
