@@ -19,8 +19,8 @@ jobs:
       uses: kelindi/estuary-upload-action@v1.0.0
       with:
         access_token: ${{ secrets.ACCESS_TOKEN }} #Required
-        path_to_add: 'your/path/' #Optional
-        pin_name: 'WWW-MySite' #Optional
+        path_to_add: 'your/path/' #Optional (Default: './')
+        pin_name: 'WWW-MySite' #Optional (Default: user/respository-commithash)
 ```
 ## Outputs
 ### `cid`
@@ -29,8 +29,6 @@ Your content's IPFS content identifier e.g.
 `bafkreiev2lcmmh44cu2ftmbtwzpsi4z7hv6izyozrqnkkq76f7v5xxxwdm`
 ## Contribute
 If you have ideas to improve this action or found a bug, feel free to submit a PR or open an issue.
-
-
 
 
 
