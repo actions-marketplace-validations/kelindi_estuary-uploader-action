@@ -22,7 +22,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: IPFS Publish
       id: IPFS
-      uses: kelindi/estuary-upload-action@v1.0.0
+      uses: kelindi/estuary-upload-action@v0.1.3-alpha
       with:
         access_token: ${{ secrets.ACCESS_TOKEN }} #Required
         path_to_add: 'your/path/' #Optional (Default: './')
