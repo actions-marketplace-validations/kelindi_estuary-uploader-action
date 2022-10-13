@@ -37,9 +37,3 @@ Your content's IPFS content identifier e.g.
 If you have ideas to improve this action or found a bug, feel free to submit a PR or open an issue.
 
 
-
-## License
-
-
-
-MIT © Alexander Schau
