@@ -22,11 +22,11 @@ jobs:
     - uses: actions/checkout@v2
     - name: IPFS Publish
       id: IPFS
-      uses: kelindi/estuary-upload-action@v0.1.3-alpha
+      uses: kelindi/estuary-upload-action@main
       with:
         access_token: ${{ secrets.ACCESS_TOKEN }} #Required
-        path_to_add: 'your/path/' #Optional (Default: './')
-        pin_name: 'WWW-MySite' #Optional (Default: user/respository-commithash)
+        path_to_add:  #Optional (Default: './')
+        pin_name: #Optional (Default: user/respository-commithash)
 ```
 ## Outputs
 ### `cid`
