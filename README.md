@@ -1,8 +1,14 @@
+![Logo](https://github.com/kelindi/estuary-upload-action/blob/main/logo.png?raw=true)
 # Estuary Uploader 
 
 This GitHub Action helps you to publish your website or repository to  [Estuary](https://estuary.tech/)
 ## Usage
-You can use this Action directly from your GitHub workflow. You can find the required credentials on your Pinning Services Website.
+1. Request an invite to Estuary @ [Estuary.tech](https://estuary.tech/)
+  1. Create a new api key 
+2. Go to your repository -> settings -> secrets -> actions -> new repository secret
+  1. Title the secret : ACCESS_TOKEN and paste your Api key from step 1
+  
+3. Use the below code in your github workflow
 
 ```yaml
 #/.github/workflows/main.yml
